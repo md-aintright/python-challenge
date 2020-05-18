@@ -19,10 +19,6 @@ with open(csvpath) as csvfile:
     # Skip header row
     next(csvreader)
 
-
-    # totalVotes = sum(1 for row in csvreader)
-    # print(str(totalVotes))
-
     # Create empty list for votes
     candidateVotes = []
 
